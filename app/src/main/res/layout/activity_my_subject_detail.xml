@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.b2ngames.findmyteacherapp.MySubjectsActivity"
+    android:id="@+id/drawer_layout"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <include
+            layout="@layout/app_bar_common"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/include2"
+            />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <View style="@style/Divider"/>
+
+                <TextView
+                    android:id="@+id/tvMySubjectTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:fontFamily="casual"
+                    android:gravity="center"
+                    android:text="@string/subject"
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                    android:textIsSelectable="false"
+                    android:textSize="40sp"/>
+
+        <View style="@style/Divider"
+              android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/tvCurriculum"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="@string/curriculum"
+            android:textIsSelectable="false"
+            android:textSize="26sp"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"/>
+
+        <EditText
+            android:id="@+id/etCurriculum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/hint_curriculum"/>
+
+        <View style="@style/Divider"
+              android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/tvClassDescription"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="@string/class_description"
+            android:textIsSelectable="false"
+            android:textSize="26sp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"/>
+
+        <EditText
+            android:id="@+id/etClassDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/hint_class_description"/>
+
+        <View style="@style/Divider"
+              android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/tvPriceHour"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="@string/price_hour"
+            android:textSize="26sp"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"/>
+
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:progress="0"
+            android:id="@+id/sbSubjectPrice"/>
+
+        <TextView
+            android:id="@+id/tvSeekBarPriceDisplay"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="0€"
+            android:textAlignment="center"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"/>
+
+        <View style="@style/Divider"
+              android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/save"
+            android:layout_marginTop="10dp"/>
+      </LinearLayout>
+    </ScrollView>
+   </LinearLayout>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header_main"
+        app:menu="@menu/activity_main_drawer" />
+
+</android.support.v4.widget.DrawerLayout>

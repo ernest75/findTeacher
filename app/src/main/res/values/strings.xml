@@ -1,0 +1,178 @@
+<resources>
+    <string name="app_name">FindTeacherApp</string>
+    <string name="refresh_but_name">Refresh</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_filter">Filter</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="register_or_login">Register or Login</string>
+    <string name="help">Help</string>
+    <string name="notifications">Notifications</string>
+    <string name="hint_etToolabar">Search</string>
+    <string name="subject">Subject</string>
+    <string name="subject_name_default">Maths</string>
+    <string name="distance">Distance</string>
+    <string name="mark">Mark</string>
+    <string name="search_center">Search Center</string>
+    <string name="domicily_service">Domicily Sevice</string>
+    <string name="max_price">Max Price</string>
+    <string name="switch_domicily_services_true">Yes</string>
+    <string name="switch_domicily_services_false">No</string>
+    <string name="title_activity_select_location">Map</string>
+    <string name="use_current_position">Use Current Position</string>
+    <string name="title_activity_ft__base">FT_BaseActivity</string>
+    <string name="go_home">Go home</string>
+    <string name="set_position_on_map">Set position on map</string>
+    <string name="no_subject_selected">No subjected selected</string>
+    <string name="reset_all_filters">Reset all filters</string>
+    <string name="subjects">SUBJECTS</string>
+    <string name="title_activity_borrar">Settings</string>
+    <string name="availability">AVAILABILTIY</string>
+    <string name="reviews">REVIEWS</string>
+    <string name="login_register">LOGIN/REGISTER</string>
+    <string name="login_facebook">LOGIN FACEBOOK</string>
+    <string name="login_google_plus">LOGIN GOOGLE+</string>
+    <string name="login_find_my_teacher">LOGIN FINDMYTEACHERAPP</string>
+    <string name="user_name">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="register_new_user">Register new user</string>
+    <string name="enter_username">Enter username</string>
+    <string name="enter_pasword">Enter pasword</string>
+    <string name="repeat_pasword">Repeat pasword</string>
+    <string name="enter_email">Enter email</string>
+    <string name="teachers_nav">Teachers</string>
+    <string name="students_nav">Students</string>
+    <string name="messages_nav">Messages</string>
+    <string name="schedule_nav">Schedule</string>
+    <string name="help_nav">Help</string>
+    <string name="logout_nav">Logout</string>
+    <string name="notifications_nav">Notifications</string>
+    <string name="change_pasword">CHANGE PASWORD</string>
+    <string name="default_location">DEFAULT LOCATION</string>
+    <string name="become_teacher">BECOME TEACHER</string>
+    <string name="teacher_area">TEACHER AREA</string>
+    <string name="my_subjects">MY SUBJECTS</string>
+    <string name="my_location">MY LOCATION</string>
+    <string name="my_curriculum">MY CURRICULUM</string>
+    <string name="curriculum">Curriculum</string>
+    <string name="hint_curriculum">Type your CV on this subject here</string>
+    <string name="class_description">Class description</string>
+    <string name="hint_class_description">Type here your class method</string>
+    <string name="price_hour">Price/Hour</string>
+    <string name="save">Save</string>
+    <string name="morning">Morning</string>
+    <string name="morning_times">8:00/13:00</string>
+    <string name="midday">Midday</string>
+    <string name="midday_times">13:00/16:00</string>
+    <string name="afternoon">Afternon</string>
+    <string name="afternoon_times">16:00/20:00</string>
+    <string name="night">Night</string>
+    <string name="night_times">20:00/24:00</string>
+    <string name="price">Price</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="location">Location</string>
+    <string name="chat">Chat</string>
+    <string name="add_teacher">Add teacher</string>
+    <string name="email">Email</string>
+    <string name="or">Or</string>
+    <string name="error_message_dialog_wrong_email">Please provide a valid email Address</string>
+    <string name="ok">Ok</string>
+    <string name="error_message_email_is_not_on_db">Email not found in our Database</string>
+    <string name="error_message_wrong_password">Wrong password!!</string>
+    <string name="error_message_email_is_already_on_db">Email already in use, please register with another </string>
+    <string name="error_message_password_is_empty">Please enter your password</string>
+    <string name="error_message_user_name_is_empty">Please enter a Username</string>
+    <string name="error_message_register_password_is_empty">Please enter a Password</string>
+    <string name="error_message_second_password_is_not_the_same">Both passwords do not match</string>
+    <string name="enter_old_password">Enter old Password</string>
+    <string name="enter_new_password">Enter new Password</string>
+    <string name="repeat_new_password">Repeat new Password</string>
+    <string name="submit">Submit</string>
+    <string name="send_message">Send message</string>
+    <string name="send_message_hint">Type your message here</string>
+
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value"/>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+
+</resources>

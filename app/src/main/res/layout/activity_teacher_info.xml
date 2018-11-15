@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_teacher_info"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.b2ngames.findmyteacherapp.TeacherInfoActivity">
+
+        <include
+            layout="@layout/app_bar_common"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/include2"/>
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="21dp"
+            android:layout_marginStart="21dp"
+            android:id="@+id/ivTeacherImage"
+            android:layout_marginTop="13dp"
+            android:layout_below="@+id/include2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"/>
+
+        <TextView
+            android:text="Paula"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/ivTeacherImage"
+            android:layout_toRightOf="@+id/ivTeacherImage"
+            android:layout_toEndOf="@+id/ivTeacherImage"
+            android:layout_marginLeft="18dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="16dp"
+            android:id="@+id/tvTeacherNameTeacherInfoActivity"
+            android:textSize="20sp"/>
+
+        <RatingBar
+            android:id="@+id/rbTeacherMark"
+            style="@style/customRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/ivTeacherImage"
+            android:layout_toEndOf="@+id/ivTeacherImage"
+            android:layout_marginTop="120dp"
+            android:layout_marginLeft="20dp"
+            android:max="5"
+            android:stepSize="1"/>
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/tvDistance"
+            android:layout_below="@+id/ivTeacherImage"
+            android:layout_alignLeft="@+id/ivTeacherImage"
+            android:layout_alignStart="@+id/ivTeacherImage"/>
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvPriceHour"
+            android:layout_above="@+id/tvDistance"
+            android:layout_alignLeft="@+id/tvTeacherNameTeacherInfoActivity"
+            android:layout_alignStart="@+id/tvTeacherNameTeacherInfoActivity"/>
+
+        <View
+            style="@style/Divider"
+            android:visibility="visible"
+            android:layout_below="@+id/tvDistance"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:id="@+id/divider1"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/tvSubjectTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/subjects"
+            android:layout_below="@+id/divider1"
+            android:layout_centerHorizontal="true"/>
+
+        <com.b2ngames.findmyteacherapp.Utilities.FullLengthListView
+            android:id="@+id/lvTeacherSubjects"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvSubjectTitle"
+            android:layout_marginTop="20dp"/>
+
+        <View
+            style="@style/Divider"
+            android:visibility="visible"
+            android:layout_below="@+id/lvTeacherSubjects"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:id="@+id/divider2"/>
+
+        <Button
+            android:id="@+id/btnAvailavility"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/availability"
+            android:layout_below="@+id/divider2"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@android:color/white"/>
+        <View
+            style="@style/Divider"
+            android:visibility="visible"
+            android:layout_below="@+id/btnAvailavility"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:id="@+id/divider3"/>
+        <Button
+            android:id="@+id/btnReviews"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/reviews"
+            android:layout_below="@+id/divider3"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@android:color/white"/>
+        <View
+            style="@style/Divider"
+            android:visibility="visible"
+            android:layout_below="@+id/btnReviews"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:id="@+id/divider4"/>
+
+        <Button
+            android:id="@+id/btnLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/location"
+            android:layout_below="@+id/divider4"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@android:color/white"/>
+
+        <View
+            style="@style/Divider"
+            android:visibility="visible"
+            android:layout_below="@+id/btnLocation"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:id="@+id/divider5"/>
+
+        <Button
+            android:id="@+id/btnChat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/chat"
+            android:layout_below="@+id/divider5"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@android:color/white"/>
+
+        <View
+            style="@style/Divider"
+            android:visibility="visible"
+            android:layout_below="@+id/btnChat"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:id="@+id/divider6"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rlWaitingCircle"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:id="@+id/pbWaitingCircle"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="155dp"
+            android:layout_marginStart="155dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="450dp"/>
+
+    </RelativeLayout>
+        </LinearLayout>
+</ScrollView>
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header_main"
+        app:menu="@menu/activity_main_drawer" />
+</android.support.v4.widget.DrawerLayout>

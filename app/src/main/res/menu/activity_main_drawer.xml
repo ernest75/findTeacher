@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/dmGroupItemsLogged">
+
+        <item
+            android:id="@+id/nav_teachers"
+            android:title="@string/teachers_nav"/>
+
+        <item
+            android:id="@+id/nav_students"
+            android:title="@string/students_nav"/>
+        <item
+            android:id="@+id/nav_messages"
+            android:title="@string/messages_nav"/>
+        <item
+            android:id="@+id/nav_help"
+            android:title="@string/help_nav"/>
+        <item
+            android:id="@+id/nav_logout"
+            android:title="@string/logout_nav"/>
+
+    </group>
+
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/dmGroupItemsLogOut"
+        android:visible="false">
+        <item
+            android:id="@+id/nav_help_on_logout"
+            android:title="@string/help_nav"/>
+        <item
+            android:id="@+id/nav_notifications_on_logout"
+            android:title="@string/notifications_nav"/>
+
+    </group>
+
+</menu>

@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "454420228705",
+    "firebase_url": "https://findteacherapp.firebaseio.com",
+    "project_id": "findteacherapp",
+    "storage_bucket": "findteacherapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:454420228705:android:0254227049173087",
+        "android_client_info": {
+          "package_name": "com.b2ngames.findteacherapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "454420228705-aadu5f6uacn96ge4porfaqjhrnatfsdu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.b2ngames.findteacherapp",
+            "certificate_hash": "384f49063d439d50d24bb7d52c8c579779e2b791"
+          }
+        },
+        {
+          "client_id": "454420228705-ks59k984ekmsgc0oom084u8tpclrhm1p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrWn4o8lTxOSvatIZnr8Rsn5qzixNFNj4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "454420228705-ks59k984ekmsgc0oom084u8tpclrhm1p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:454420228705:android:5314cf865dbf18b2",
+        "android_client_info": {
+          "package_name": "com.b2ngames.findmyteacherapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "454420228705-ks59k984ekmsgc0oom084u8tpclrhm1p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrWn4o8lTxOSvatIZnr8Rsn5qzixNFNj4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
